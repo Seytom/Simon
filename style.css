@@ -1,0 +1,100 @@
+p{
+  font-size:1.5rem;
+  text-align:center;
+  background-color:green;
+  color:white;
+  border-radius:6px;
+  padding:5px;
+}
+
+#control_panel{
+  height: 100px;
+  width: 150px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10px;
+}
+
+#message{
+  height:200px;
+  width: 150px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.shape{
+  height:10rem;
+  width:10rem;
+  background-color:#fff;
+  opacity:.5;
+  float:left;
+  margin:.5rem;
+ 
+}
+
+.myContainers{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mid-container{
+  height:11rem;
+  margin:auto;
+  width:24rem;
+  
+}
+#red{
+  background-color: #AA0114;
+  border-top-right-radius:100%;
+}
+#blue{
+  background-color:#3f7f9f;
+  border-bottom-right-radius:100%;
+}
+#green{
+  background-color:green;
+  border-top-left-radius:100%;
+}
+#yellow{
+  background-color:yellow;
+  border-bottom-left-radius:100%;  
+}
+
+aside{
+  width:34%;
+  float:right;
+}
+.brighten{
+  opacity:1.0;
+}
+
+
+.group:before, .group:after{
+  content:"";
+  display:table;
+}
+.group:after{
+  clear:both;
+  
+}
+.group{
+  background:#eaeaea;
+  border-radius:6px;
+  
+  clear:both;
+  *:1;
+}
+#default{
+  background:none;
+  color:#bebebe;
+}
+
+.failure{
+  background-color:black;
+}
